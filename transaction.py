@@ -8,10 +8,14 @@ import datetime
 
 class  Transaction(object):
            
-    def __init__(self, tid, zipcode,pay_time):
+    def __init__(self, tid, district, state, city, town, zipcode, pay_time):
         self.statuses = [] # format of a status [[status, statustime], [status, statustime], etc.....]
         self.tid = int(tid)
         self.zipcode = zipcode
+        self.state = state
+        self.city = city
+        self.town = town
+        self.district = district
         self.pay_time = pay_time
 
     # return tid of the transaction
@@ -34,25 +38,25 @@ class  Transaction(object):
         for i in self.statuses:
             if i[0] == "OM_CONSIGN":
                 return i[1]
-        return -1
+        return 'NULL'
 
     # return the time for the parel arriving at the Germany warehouse
     def scinbound_time(self):
         for i in self.statuses:
             if i[0] == "SC_INBOUND_SUCCESS":
                 return i[1]
-        return -1
+        return 'NULL'
 
     # return the time for leaving the London airport
     def lhdepart_time(self):
         for i in self.statuses:
             if i[0] == "LH_DEPART":
                 return i[1]
-        return -1
+        return 'NULL'
 
     # return the time for arriving at China from the London airport
     def lharrive_time(self):
-        last = -1
+        last = 'NULL'
         for i in self.statuses:
             if i[0] == "LH_ARRIVE":
                 last = i[1]
@@ -63,21 +67,21 @@ class  Transaction(object):
         for i in self.statuses:
             if i[0] == "CC_HO_IN_SUCCESS":
                 return i[1]
-        return -1
+        return 'NULL'
 
     # return the time China customs clear process finished?
     def ccout_time(self):
         for i in self.statuses:
             if i[0] == "CC_HO_OUT_SUCCESS":
                 return i[1]
-        return -1
+        return 'NULL'
 
     # return the time the package was signed (should be when the transaction is over?)
     def signed_time(self):
         for i in self.statuses:
             if i[0] == "SIGNED":
                 return i[1]
-        return -1
+        return 'NULL'
 
     # return whether the package has reachd its final destination
     def is_finished(self):
@@ -86,7 +90,7 @@ class  Transaction(object):
     #-------------------------------TIME CALCULATIONS-----------------------------------------------------------
 
     # calculate the total time of the transaction's journey
-    def calc_time_passed(self):
+    def total_time(self):
         if self.is_finished():
             return (self.signed_time() - self.get_pay_time()).total_seconds()
         else:
