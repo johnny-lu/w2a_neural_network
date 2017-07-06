@@ -1,0 +1,5 @@
+lhdepart_lharrive_list
+Min:	2:45:00
+Max:	22:45:00
+Mean: 10:45:41.438817
+Std:	2:45:49.575558

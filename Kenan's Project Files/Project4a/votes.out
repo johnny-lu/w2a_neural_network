@@ -1,0 +1,116 @@
+physician = n
+|---adoption = n
+|---|---education = n
+|---|---|---exports = n
+|---|---|---|---religious = n
+|---|---|---|---|---republican
+|---|---|---|---religious = y
+|---|---|---|---|---democrat
+|---|---|---|---religious = ?
+|---|---|---|---|---democrat
+|---|---|---exports = y
+|---|---|---|---democrat
+|---|---|---exports = ?
+|---|---|---|---democrat
+|---|---education = y
+|---|---|---democrat
+|---|---education = ?
+|---|---|---republican
+|---adoption = y
+|---|---democrat
+|---adoption = ?
+|---|---democrat
+physician = y
+|---synfuels = n
+|---|---exports = n
+|---|---|---adoption = n
+|---|---|---|---republican
+|---|---|---adoption = y
+|---|---|---|---export-administration = n
+|---|---|---|---|---republican
+|---|---|---|---export-administration = y
+|---|---|---|---|---republican
+|---|---|---|---export-administration = ?
+|---|---|---|---|---anti-satellite = n
+|---|---|---|---|---|---democrat
+|---|---|---|---|---anti-satellite = y
+|---|---|---|---|---|---republican
+|---|---|---|---|---anti-satellite = ?
+|---|---|---|---|---|---republican
+|---|---|---adoption = ?
+|---|---|---|---republican
+|---|---exports = y
+|---|---|---immigration = n
+|---|---|---|---export-administration = n
+|---|---|---|---|---republican
+|---|---|---|---export-administration = y
+|---|---|---|---|---democrat
+|---|---|---|---export-administration = ?
+|---|---|---|---|---crime = n
+|---|---|---|---|---|---republican
+|---|---|---|---|---crime = y
+|---|---|---|---|---|---democrat
+|---|---|---|---|---crime = ?
+|---|---|---|---|---|---republican
+|---|---|---immigration = y
+|---|---|---|---republican
+|---|---|---immigration = ?
+|---|---|---|---republican
+|---|---exports = ?
+|---|---|---republican
+|---synfuels = y
+|---|---adoption = n
+|---|---|---el-salvador = n
+|---|---|---|---democrat
+|---|---|---el-salvador = y
+|---|---|---|---export-administration = n
+|---|---|---|---|---superfund = n
+|---|---|---|---|---|---democrat
+|---|---|---|---|---superfund = y
+|---|---|---|---|---|---water = n
+|---|---|---|---|---|---|---handicap = n
+|---|---|---|---|---|---|---|---democrat
+|---|---|---|---|---|---|---handicap = y
+|---|---|---|---|---|---|---|---republican
+|---|---|---|---|---|---|---handicap = ?
+|---|---|---|---|---|---|---|---republican
+|---|---|---|---|---|---water = y
+|---|---|---|---|---|---|---republican
+|---|---|---|---|---|---water = ?
+|---|---|---|---|---|---|---republican
+|---|---|---|---|---superfund = ?
+|---|---|---|---|---|---republican
+|---|---|---|---export-administration = y
+|---|---|---|---|---republican
+|---|---|---|---export-administration = ?
+|---|---|---|---|---handicap = n
+|---|---|---|---|---|---republican
+|---|---|---|---|---handicap = y
+|---|---|---|---|---|---democrat
+|---|---|---|---|---handicap = ?
+|---|---|---|---|---|---republican
+|---|---|---el-salvador = ?
+|---|---|---|---republican
+|---|---adoption = y
+|---|---|---anti-satellite = n
+|---|---|---|---democrat
+|---|---|---anti-satellite = y
+|---|---|---|---republican
+|---|---|---anti-satellite = ?
+|---|---|---|---democrat
+|---|---adoption = ?
+|---|---|---democrat
+|---synfuels = ?
+|---|---republican
+physician = ?
+|---missile = n
+|---|---democrat
+|---missile = y
+|---|---synfuels = n
+|---|---|---republican
+|---|---synfuels = y
+|---|---|---democrat
+|---|---synfuels = ?
+|---|---|---democrat
+|---missile = ?
+|---|---republican

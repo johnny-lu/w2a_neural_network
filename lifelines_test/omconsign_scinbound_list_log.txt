@@ -1,0 +1,6 @@
+omconsign_scinbound_list
+Min:	4:17:17
+Max:	4 days, 4:22:12
+Median: 1 day, 9:15:13.500000
+Std:	19:20:02.539643
+Median+Std:    2 days, 4:35:16.039643

@@ -1,0 +1,6 @@
+ccin_ccout_list
+Min:	0:00:00
+Max:	4 days, 23:44:41
+Median: 0:00:00
+Std:	7:40:08.692117
+Median+Std:    7:40:08.692117

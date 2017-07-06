@@ -1,0 +1,6 @@
+omconsign_signed_list
+Min:	3 days, 12:27:27
+Max:	18 days, 13:52:18
+Median: 8 days, 15:33:56
+Std:	2 days, 16:58:03.976552
+Median+Std:    11 days, 8:31:59.976552

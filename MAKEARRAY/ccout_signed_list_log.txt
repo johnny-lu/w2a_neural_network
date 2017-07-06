@@ -1,0 +1,5 @@
+ccout_signed_list
+Min:	13:45:52
+Max:	4 days, 2:43:29
+Mean: 2 days, 8:05:51.899587
+Std:	16:12:04.068109

@@ -1,0 +1,98 @@
+Running q4 tests
+
+Running test carsEntropy.test
+Your answer is incorrect
+Your answer: safety = high
+
+
+--------------------------------------------------------------------
+Running test carsGini.test
+Correct answer!
+--------------------------------------------------------------------
+Running test carsGini2.test
+Your answer is incorrect
+Your answer: safety = high
+|---persons = 2
+|---|---unacc
+|---persons = 4
+|---|---acc
+|---persons = more
+|---|---acc
+safety = med
+|---persons = 2
+|---|---unacc
+|---persons = 4
+|---|---lug_boot = small
+|---|---|---unacc
+|---|---lug_boot = med
+|---|---|---doors = 5more
+|---|---|---|---None
+|---|---|---doors = 3
+|---|---|---|---unacc
+|---|---|---doors = 2
+|---|---|---|---None
+|---|---|---doors = 4
+|---|---|---|---acc
+|---|---lug_boot = big
+|---|---|---acc
+|---persons = more
+|---|---lug_boot = small
+|---|---|---unacc
+|---|---lug_boot = med
+|---|---|---acc
+|---|---lug_boot = big
+|---|---|---acc
+safety = low
+|---unacc
+
+Correct answer: safety = high
+|---persons = 2
+|---|---unacc
+|---persons = 4
+|---|---acc
+|---persons = more
+|---|---acc
+safety = med
+|---persons = 2
+|---|---unacc
+|---persons = 4
+|---|---lug_boot = small
+|---|---|---unacc
+|---|---lug_boot = med
+|---|---|---doors = 5more
+|---|---|---|---acc
+|---|---|---doors = 3
+|---|---|---|---unacc
+|---|---|---doors = 2
+|---|---|---|---acc
+|---|---|---doors = 4
+|---|---|---|---acc
+|---|---lug_boot = big
+|---|---|---acc
+|---persons = more
+|---|---lug_boot = small
+|---|---|---unacc
+|---|---lug_boot = med
+|---|---|---acc
+|---|---lug_boot = big
+|---|---|---acc
+safety = low
+|---unacc
+
+--------------------------------------------------------------------
+Running test dummySet1Entropy.test
+Correct answer!
+--------------------------------------------------------------------
+Running test dummySet1Gini.test
+Correct answer!
+--------------------------------------------------------------------
+Running test dummySet2Entropy.test
+Correct answer!
+--------------------------------------------------------------------
+Running test dummySet2Gini.test
+Correct answer!
+--------------------------------------------------------------------
+Not all tests passed - score 0/4
+Done
+____________________________________________________________________
+

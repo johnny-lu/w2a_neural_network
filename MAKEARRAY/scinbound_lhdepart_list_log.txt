@@ -1,0 +1,5 @@
+scinbound_lhdepart_list
+Min:	-1 day, 21:11:39
+Max:	4 days, 1:29:10
+Mean: 1 day, 15:06:05.741196
+Std:	19:56:20.862202
